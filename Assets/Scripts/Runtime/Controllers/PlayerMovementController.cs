@@ -52,5 +52,4 @@ public class PlayerMovementController : MonoBehaviour
     {
         _rigidbody.velocity += new Vector3(_inputvalues.x, 0, _inputvalues.y) * (_data.Speed * Time.fixedDeltaTime);
     }
-
 }
