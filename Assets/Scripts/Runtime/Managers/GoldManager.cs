@@ -16,6 +16,6 @@ public class GoldManager : MonoBehaviour
     // Puanı UI'de güncelleme
     private void UpdateScoreUI()
     {
-        scoreText.text = "Puan: " + score;
+        scoreText.text = ": " + score;
     }
 }
